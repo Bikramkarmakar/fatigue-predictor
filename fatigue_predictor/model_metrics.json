@@ -1,0 +1,22 @@
+{
+  "mae": 1.4313,
+  "rmse": 1.7919,
+  "r2": 0.5691,
+  "cv_r2_mean": 0.5401,
+  "cv_r2_std": 0.0148,
+  "n_samples": 8500,
+  "n_train": 6800,
+  "n_test": 1700,
+  "features": [
+    "bedtime_phone_minutes",
+    "screen_brightness_pct",
+    "caffeine_post_5pm_mg"
+  ],
+  "target": "next_day_fatigue_score",
+  "model": "GradientBoostingRegressor",
+  "feature_importances": {
+    "bedtime_phone_minutes": 0.8345,
+    "screen_brightness_pct": 0.0649,
+    "caffeine_post_5pm_mg": 0.1006
+  }
+}

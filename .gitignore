@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.env
+venv/
+env/
+
+# Bob workspace
+.kilo/
+
+# Generated files (not needed for deployment)
+fatigue_predictor/fatigue_predictor_report.pdf
+fatigue_predictor/generate_report.py
+fatigue_predictor/__pycache__/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# HTML report artifact
+fatigue-predictor-project-report.html

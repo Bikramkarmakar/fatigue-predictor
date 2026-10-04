@@ -1,0 +1,9 @@
+# Streamlit Community Cloud – app configuration
+# This file tells Streamlit Cloud which Python file to run and where secrets live.
+
+[server]
+headless = true
+port = 8501
+
+[browser]
+gatherUsageStats = false
